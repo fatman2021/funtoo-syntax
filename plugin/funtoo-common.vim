@@ -26,9 +26,7 @@ endfun
 
 fun! FuntooHeader()
     let l:year = strftime("%Y")
-    0 put ='# Copyright 2008-' . l:year . ' Funtoo Technologies'
-    put ='# Distributed under the terms of the GNU General Public License v2'
-    put ='# $Header: $'
+    0 put ='# Distributed under the terms of the GNU General Public License v2'
     $
 endfun
 
